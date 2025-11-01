@@ -1,4 +1,4 @@
-import{c as f,j as n,f as a,I as c,ab as l,u as i,af as u}from"./index-BCE6yiAx.js";import{h as o}from"./CardTitle-CWKSSXXS.js";/**
+import{c as f,j as n,f as a,I as c,ab as l,u as i,af as u}from"./index-MrKdi8bm.js";import{h as o}from"./CardTitle-DWaHfa8r.js";/**
  * @license lucide-vue-next v0.548.0 - ISC
  *
  * This source code is licensed under the ISC license.
