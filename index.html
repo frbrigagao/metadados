@@ -1,11 +1,39 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/metadados/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>levantamento-metadados-vue</title>
-    <script type="module" crossorigin src="/metadados/assets/index-MrKdi8bm.js"></script>
+
+    <!-- 🛡️ SEGURANÇA: Content Security Policy -->
+    <!-- Protege contra XSS, clickjacking e outros ataques -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data: blob:;
+      font-src 'self' data:;
+      connect-src 'self';
+      frame-ancestors 'none';
+      base-uri 'self';
+      form-action 'self';
+    ">
+
+    <!-- 🛡️ SEGURANÇA: Headers adicionais de proteção -->
+    <!-- Previne MIME-sniffing attacks -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Previne clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+
+    <!-- Habilita filtro XSS do navegador (legacy, mas mantém compatibilidade) -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- Controla informações do Referrer -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>Sistema de Gestão de Metadados de Processos</title>
+    <script type="module" crossorigin src="/metadados/assets/index-DbmskYgF.js"></script>
     <link rel="stylesheet" crossorigin href="/metadados/assets/index-Cu1czebK.css">
   </head>
   <body>
