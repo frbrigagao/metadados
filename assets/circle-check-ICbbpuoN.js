@@ -1,4 +1,4 @@
-import{c}from"./index-CrRnVzXM.js";
+import{c}from"./index-DWL0922U.js";
 /**
  * @license lucide-vue-next v0.548.0 - ISC
  *
